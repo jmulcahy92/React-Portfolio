@@ -1,11 +1,17 @@
-nav {
-    font-size: 1.8rem;
+ul {
+    font-size: 1.5rem;
 }
 
-a {
+.nav-link {
+    color:#8d86c9 !important;
+}
+
+.nav-link:hover {
     color: linen !important;
 }
 
-a:hover {
-    color: #977390 !important;
+.active {
+    background-color: #8d86c9;
+    border-radius: 8%;
+    color: #190933 !important;
 }
