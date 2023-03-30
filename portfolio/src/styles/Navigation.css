@@ -1,0 +1,11 @@
+nav {
+    font-size: 1.8rem;
+}
+
+a {
+    color: linen !important;
+}
+
+a:hover {
+    color: #977390 !important;
+}

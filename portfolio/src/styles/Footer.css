@@ -1,0 +1,11 @@
+footer {
+    background: #190933;
+}
+
+a {
+    color: linen !important;
+}
+
+a:hover {
+    color: #977390 !important;
+}
