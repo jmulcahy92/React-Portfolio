@@ -1,9 +1,10 @@
 import React from 'react';
+import avatar from '../../assets/images/placeholderAvatar.png';
 
 export default function About() {
     return (
         <main class="d-flex">
-            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" class="img-thumbnail" alt="A placeholder image of a person's silhouette."></img>
+            <img src={avatar} class="img-thumbnail" alt="A placeholder image of a person's silhouette."></img>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                 Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
