@@ -2,14 +2,42 @@ main {
     color: #190933;
     font-size: 1.2rem;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 10vh;
 }
 
-img {
-    max-width: 100%;
+p {
+    margin: 2% !important;
+}
+
+#devPicture {
+    max-width: 50%;
     height: auto;
 }
 
 .card {
     width: 30vw;
+}
+
+input {
+    width: 50vw !important;
+}
+
+#form {
+    margin-top: 10vh !important;
+}
+
+@media screen and (max-width: 1168px) {
+    .card {
+        width: 44vw;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    .card {
+        width: 80vw;
+    }
 }

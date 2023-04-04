@@ -4,7 +4,7 @@ import avatar from '../../assets/images/placeholderAvatar.png';
 export default function About() {
     return (
         <main class="d-flex">
-            <img src={avatar} class="img-thumbnail" alt="A placeholder image of a person's silhouette."></img>
+            <img src={avatar} className="img-thumbnail" id='devPicture' alt="A placeholder image of a person's silhouette."></img>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                 Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

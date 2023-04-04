@@ -27,11 +27,12 @@ export default function Contact() {
     
         if (!validateEmail(email)) {
             setErrorMessage('Email is invalid');  
-        }
-
-        setName('');
-        setEmail('');
-        setMessage('');
+        } else {
+            setName('');
+            setEmail('');
+            setMessage('');
+            setErrorMessage('');
+        }    
     };
 
     const handleInputExit = (e) => {
@@ -45,8 +46,8 @@ export default function Contact() {
     }
 
     return (
-        <main>
-            <form className="form d-flex flex-column m-3">
+        <main className='d-flex justify-content-center align-items-center'>
+            <form className="form d-flex flex-column m-3" id='form'>
                 <div className="mb-3">
                     <label for="name" className="form-label">Name</label>
                     <input
