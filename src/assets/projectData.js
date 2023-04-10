@@ -1,11 +1,17 @@
 import movieImg from './images/image4.jpg';
 import parksImg from './images/image3.jpg';
-import notesImg from './images/image1.jpg';
+import triviaImg from './images/image1.jpg';
 import passwordImg from './images/image2.jpg';
 import weatherImg from './images/image5.jpg';
 import scheduleImg from './images/image6.jpg';
 
 const projectData = [
+    {
+        name: 'Trivia Game',
+        screenshot: triviaImg,
+        liveUrl: 'https://jada-quiz-app.herokuapp.com/',
+        repoUrl: 'https://github.com/Awele1111/JADA-Quiz-App'
+    },
     {
         name: 'Film Review Site',
         screenshot: movieImg,
@@ -17,12 +23,6 @@ const projectData = [
         screenshot: parksImg,
         liveUrl: 'https://jmulcahy92.github.io/Day-in-the-Park/',
         repoUrl: 'https://github.com/jmulcahy92/Day-in-the-Park'
-    },
-    {
-        name: 'Notes Applet',
-        screenshot: notesImg,
-        liveUrl: 'https://thawing-scrubland-79810.herokuapp.com/notes',
-        repoUrl: 'https://github.com/jmulcahy92/Note-Taker'
     },
     {
         name: 'Random Password Generator Applet',
