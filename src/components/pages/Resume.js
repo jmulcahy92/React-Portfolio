@@ -1,20 +1,29 @@
 import React from 'react';
+import pdf from '../../assets/Resume.pdf';
 
 export default function Resume() {
     return (
-        <main>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
-            </p>
+        <main id='resume'>
+            <h3>Front-End Proficiencies</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript ES6+</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>React</li>
+            </ul>
+            <br></br>
+            <h3>Back-End Proficiencies</h3>
+            <ul>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>GraphQL</li>
+            </ul>
+            <br></br>
+            <a href= {pdf}>Download my resume as a PDF</a>
         </main>
     );
 }

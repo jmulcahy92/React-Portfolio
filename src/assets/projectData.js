@@ -10,7 +10,7 @@ const projectData = [
         name: 'Trivia Game',
         screenshot: triviaImg,
         liveUrl: 'https://jada-quiz-app.herokuapp.com/',
-        repoUrl: 'https://github.com/Awele1111/JADA-Quiz-App'
+        repoUrl: 'https://github.com/jmulcahy92/JADA-Quiz-App'
     },
     {
         name: 'Film Review Site',

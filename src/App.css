@@ -37,6 +37,7 @@ p {
 #devPicture {
     max-width: 50%;
     height: auto;
+    border-radius: 50%;
 }
 
 .card {
@@ -49,6 +50,11 @@ input {
 
 #form {
     margin-top: 10vh !important;
+}
+
+#resume {
+    display: block;
+    margin: 2% !important;
 }
 
 footer {
