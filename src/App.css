@@ -40,8 +40,22 @@ p {
     border-radius: 50%;
 }
 
+#proficiencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#proficiencies div {
+    margin: 0vw 5vw;
+}
+
 .card {
     width: 30vw;
+}
+
+.card .btn {
+    width: 30%;
 }
 
 input {

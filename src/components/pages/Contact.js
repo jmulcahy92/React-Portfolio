@@ -80,7 +80,7 @@ export default function Contact() {
                         onChange={handleInputChange}
                         onMouseOut={handleInputExit}
                         type="text"
-                        placeholder='NOTE: Submitting this form will not actually send me a message at this time. Please contact me via my email, which can be found on my resume as well as my LinkedIn profile.'
+                        placeholder='NOTE: Submitting this form will not actually send me a message at this time. Please contact me via my email: jacobkmulcahy@gmail.com'
                         className="form-control"
                         rows="3"
                     />
